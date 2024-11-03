@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM02nOOsU2Kc0SdBt0rMIeQ2ofMIR64W5Gg5mKZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="container mx-auto lg:px-20 mt-8">
+      <div class="border border-red-400 bg-black rounded-lg">
+        <h1 class="text-center font-bold text-[28px] text-red-600 m-10">
+          Please Comment
+        </h1>
+        <div
+          id="history"
+          class="flex justify-center items-center w-fit h-auto border border-red-400 m-5 rounded-lg"
+        >
+          <h1 class="text-red-400 p-5">Comment history place :</h1>
+        </div>
+        <div class="flex justify-center items-center gap-10 m-5">
+          <input
+            id="comment"
+            type="text"
+            placeholder="comment"
+            class="w-[300px] h-[40px] border-none rounded-lg shadow-lg"
+          />
+          <button
+            id="button"
+            class="text-red-400 border-2 border-red-500 rounded-lg shadow-lg hover:text-white hover:bg-red-500 transition-all duration-1000 px-5 py-1"
+          >
+            submit
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="event.js"></script>
+</html>
